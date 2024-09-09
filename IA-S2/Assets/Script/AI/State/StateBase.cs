@@ -41,5 +41,4 @@ public class StateBase : MonoBehaviour
         int randomIndex = Random.Range(0, possibleValues.Count);
         return possibleValues[randomIndex];
     }
-
 }
