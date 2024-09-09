@@ -7,6 +7,10 @@ public class TestAIEye : AIEyeBase
 
     public DataView DataViewAttack = new DataView();
     public DataView DataViewFire = new DataView();
+    private void Start()
+    {
+        this.LoadComponent();
+    }
     public override void LoadComponent()
     {
         base.LoadComponent();
